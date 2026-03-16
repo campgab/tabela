@@ -1,14 +1,137 @@
+css 
 *{
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-table{
-    width: 100%;
-    height: 100vh;
+table {
+    width: 100%; /* 80% da largura da tela */
+    height: 97vh /* Altura fixa */
+    
+  }
+
+td {width: 5%;
+      height: 8vh;
+
+      text-align: center;}
+
+div { text-align: left;
+
+
 }
 
-td{
-    width: 5%;
-    height: 8vh;
+.naometais{
+  background-color: rgb(128, 209, 107);
+}
+.metaisalcalinos{
+  background-color: rgb(255, 202, 56);
+}
+.terrosos {
+
+  background-color: rgb(255, 237, 135);
+}
+.transicao {
+background-color: rgb(255, 169, 184);
+
+}
+.lantanideos {
+
+  background-color: rgb(110, 192, 192);
+}
+.actinidios {
+
+  background-color: rgb(203, 164, 240);
+}
+.gases {
+
+  background-color: rgb(126, 160, 223);
+}
+.outros {
+background-color: rgb(139, 188, 233);
+
+}
+.semi {
+
+  background-color: rgb(117, 206, 206);
+}
+.halogenio {
+
+  background-color: rgb(174, 246, 255);
+}
+
+.quadrado {
+  width: 30%;
+  margin-left:70% ;                
+  height: 30%;             
+  background-color: rgb(128, 209, 107);  
+  display: inline-block;      /* Faz o quadrado ficar na linha com texto, se necessário */
+}
+
+
+.quadrado2 {
+  width: 30px;                /* Define a largura */
+  height: 30px;               /* Define a altura igual a largura */
+  background-color: rgb(255, 202, 56);  /* Define a cor (pode ser nome, hex ou rgb) */
+  display: inline-block;      /* Faz o quadrado ficar na linha com texto, se necessário */
+}
+
+.quadrado3 {
+  width: 30px;                /* Define a largura */
+  height: 30px;               /* Define a altura igual a largura */
+  background-color: rgb(117, 206, 206);  /* Define a cor (pode ser nome, hex ou rgb) */
+  display: inline-block;      /* Faz o quadrado ficar na linha com texto, se necessário */
+}
+
+.quadrado4 {
+  width: 30px;                /* Define a largura */
+  height: 30px;               /* Define a altura igual a largura */
+  background-color: rgb(139, 188, 233);  /* Define a cor (pode ser nome, hex ou rgb) */
+  display: inline-block;      /* Faz o quadrado ficar na linha com texto, se necessário */
+}
+
+
+.quadrado5 {
+  width: 30px;                /* Define a largura */
+  height: 30px;               /* Define a altura igual a largura */
+  background-color: rgb(110, 192, 192);  /* Define a cor (pode ser nome, hex ou rgb) */
+  display: inline-block;      /* Faz o quadrado ficar na linha com texto, se necessário */
+}
+
+
+.quadrado6 {
+  width: 30px;                /* Define a largura */
+  height: 30px;               /* Define a altura igual a largura */
+  background-color: rgb(126, 160, 223);  /* Define a cor (pode ser nome, hex ou rgb) */
+  display: inline-block;      /* Faz o quadrado ficar na linha com texto, se necessário */
+}
+
+
+.quadrado7 {
+  width: 30px;                /* Define a largura */
+  height: 30px;               /* Define a altura igual a largura */
+  background-color: rgb(255, 237, 135);  /* Define a cor (pode ser nome, hex ou rgb) */
+  display: inline-block;      /* Faz o quadrado ficar na linha com texto, se necessário */
+}
+
+
+.quadrado8 {
+  width: 30px;                /* Define a largura */
+  height: 30px;               /* Define a altura igual a largura */
+  background-color: rgb(174, 246, 255);  /* Define a cor (pode ser nome, hex ou rgb) */
+  display: inline-block;      /* Faz o quadrado ficar na linha com texto, se necessário */
+}
+
+.quadrado9 {
+  width: 30px;                /* Define a largura */
+  height: 30px;               /* Define a altura igual a largura */
+  background-color: rgb(255, 169, 184);  /* Define a cor (pode ser nome, hex ou rgb) */
+  display: inline-block;      /* Faz o quadrado ficar na linha com texto, se necessário */
+}
+
+
+.quadrado10 {
+  width: 30px;                /* Define a largura */
+  height: 30px;               /* Define a altura igual a largura */
+  background-color: rgb(203, 164, 240);  /* Define a cor (pode ser nome, hex ou rgb) */
+  display: inline-block;      /* Faz o quadrado ficar na linha com texto, se necessário */
 }
